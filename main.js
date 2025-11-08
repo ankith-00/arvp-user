@@ -6,7 +6,7 @@ window.addEventListener("DOMContentLoaded", async () => {
   const patternURL = atob(params.get("pattern"));
   const videoURL = atob(params.get("video"));
   
-  console.log(`Pattern  URL : ${patternURL}\nVideo    URL : ${videoURL}`);
+  // console.log(`Pattern  URL : ${patternURL}\nVideo    URL : ${videoURL}`);
 
   window.history.replaceState({}, document.title, window.location.pathname);
 
